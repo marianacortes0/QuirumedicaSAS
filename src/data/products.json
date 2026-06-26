@@ -1,0 +1,234 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Tijera Mayo curva",
+    "categoryId": "cat-tijeras",
+    "image": "/images/products/tijera-mayo-curva.png",
+    "medidas": "14.5 cm",
+    "featured": true
+  },
+  {
+    "id": "prod-002",
+    "name": "Tijera Mayo recta",
+    "categoryId": "cat-tijeras",
+    "image": "/images/products/tijera-mayo-recta.jpg",
+    "medidas": "14 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-003",
+    "name": "Tijera Metzenbaum recta",
+    "categoryId": "cat-tijeras",
+    "image": "/images/products/tijera-metzenbaum-recta.jpg",
+    "medidas": "14 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-004",
+    "name": "Tijera Metzenbaum curva",
+    "categoryId": "cat-tijeras",
+    "image": "/images/products/tijera-metzenbaum-curva.jpeg",
+    "medidas": "14.5 cm",
+    "featured": true
+  },
+  {
+    "id": "prod-005",
+    "name": "Portaagujas Mayo-Hegar",
+    "categoryId": "cat-suturas",
+    "image": "/images/products/portaagujas-mayo-hegar.jpg",
+    "medidas": "14 cm – 16 cm - 18 cm - 24 cm - 26 cm",
+    "featured": true
+  },
+  {
+    "id": "prod-006",
+    "name": "Pinza Adson con garra",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/pinza-adson-con-garra.webp",
+    "medidas": "12 cm",
+    "featured": true
+  },
+  {
+    "id": "prod-007",
+    "name": "Pinza Adson sin garra",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/pinza-adson-sin-garra.jpg",
+    "medidas": "12 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-008",
+    "name": "Pinza Kelly curva",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/pinza-kelly-curva.jpg",
+    "medidas": "14 cm",
+    "featured": true
+  },
+  {
+    "id": "prod-009",
+    "name": "Pinza Kelly recta",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/pinza-kelly-recta.webp",
+    "medidas": "20 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-010",
+    "name": "Pinza Backhaus",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/pinza-backhaus.jpg",
+    "medidas": "11 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-011",
+    "name": "Pinza biopsia Schubert",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/pinza-biopsia-schubert.jpg",
+    "medidas": "21.5 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-012",
+    "name": "Pinza biopsia Schubert curva",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/pinza-biopsia-schubert-curva.jpg",
+    "medidas": "26 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-013",
+    "name": "Pinza Lewin para reducción ósea",
+    "categoryId": "cat-ortopedia",
+    "image": "/images/products/pinza-lewin.jpg",
+    "medidas": "18 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-014",
+    "name": "Pinza Mosquito curva",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/pinza-mosquito-curva.webp",
+    "medidas": "12.5 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-015",
+    "name": "Pinza Mosquito recta",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/pinza-mosquito-recta.jpg",
+    "medidas": "14 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-016",
+    "name": "Pinza de reducción con mandíbulas dentadas",
+    "categoryId": "cat-ortopedia",
+    "image": "/images/products/pinza-reduccion-mandibulas.jpg",
+    "medidas": "14 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-017",
+    "name": "Pinza Kerrison de corte óseo",
+    "categoryId": "cat-ortopedia",
+    "image": "/images/products/pinza-kerrison.jpg",
+    "medidas": "15 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-018",
+    "name": "Histerómetro Sims maleable",
+    "categoryId": "cat-insumos",
+    "image": "/images/products/histerometro-sims.jpg",
+    "medidas": "32 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-019",
+    "name": "Coca de acero 100ml para aceros quirúrgicos",
+    "categoryId": "cat-esterilizacion",
+    "image": "/images/products/coca-acero-inoxidable-100ml-uso-medico.webp",
+    "medidas": "",
+    "featured": false
+  },
+  {
+    "id": "prod-020",
+    "name": "Cubeta con tapa,bandeja de acero inoxidable para Instrumental",
+    "categoryId": "cat-esterilizacion",
+    "image": "/images/products/Cubeta-con-tapa-y-agarradera-23x11x3-pix-a-600x486_512x415.webp",
+    "medidas": "",
+    "featured": false
+  },
+  {
+    "id": "prod-021",
+    "name": "Contenedores de Esterilización de Instrumental",
+    "categoryId": "cat-esterilizacion",
+    "image": "/images/products/contenedores_Esterilizacion.jpg",
+    "medidas": "",
+    "featured": false
+  },
+  {
+    "id": "prod-022",
+    "name": "Guantes de latex en talco Caja x100",
+    "categoryId": "cat-insumos",
+    "image": "/images/products/guantes_latex.webp",
+    "medidas": "",
+    "featured": false
+  },
+  {
+    "id": "prod-023",
+    "name": "Bata desechable",
+    "categoryId": "cat-insumos",
+    "image": "/images/products/bata_desechable.jpg",
+    "medidas": "",
+    "featured": false
+  },
+  {
+    "id": "prod-024",
+    "name": "Cincel para hueso 6MM",
+    "categoryId": "cat-ortopedia",
+    "image": "/images/products/cincel_hueso.webp",
+    "medidas": "13,5 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-025",
+    "name": "Martillo 450Gr Cat:32.690.45",
+    "categoryId": "cat-ortopedia",
+    "image": "/images/products/martillo.jpg",
+    "medidas": "26,5 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-026",
+    "name": "Especulo nasal viena modificado",
+    "categoryId": "cat-separadores",
+    "image": "/images/products/especulo_nasal.jpg",
+    "medidas": "26,5 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-027",
+    "name": "Alicate hombresolo para extraccion de alambre",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/alicate-hombresolo-para-extraer-alambre-long-18-cm-7.jpg",
+    "medidas": "18 cm",
+    "featured": false
+  },
+  {
+    "id": "prod-028",
+    "name": "Especulo vaginal grave pequeño",
+    "categoryId": "cat-separadores",
+    "image": "/images/products/especulo-vaginal-grave-pequeno-hospital-esterilizable-con-sistema-eo-oxido-de-ethileno.jpg",
+    "medidas": "",
+    "featured": false
+  },
+  {
+    "id": "prod-029",
+    "name": "Cizalla liston recta para hueso",
+    "categoryId": "cat-ortopedia",
+    "image": "/images/products/cizalla_liston.jpg",
+    "medidas": "22cm",
+    "featured": false
+  }
+]

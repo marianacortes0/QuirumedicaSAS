@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cat-tijeras",
+    "name": "Tijeras",
+    "icon": "scissors",
+    "tagline": "Corte de tejido y material",
+    "description": "Mayo y Metzenbaum, rectas y curvas, para corte de tejido, fascia y suturas."
+  },
+  {
+    "id": "cat-pinzas",
+    "name": "Pinzas",
+    "icon": "grip",
+    "tagline": "Prensión y hemostasia",
+    "description": "Hemostáticas, de disección, de campo, de biopsia y portaagujas para cada procedimiento."
+  },
+  {
+    "id": "cat-separadores",
+    "name": "Separadores",
+    "icon": "ruler",
+    "tagline": "Exposición de campo",
+    "description": "Instrumentos para mantener abierto el campo quirúrgico. Disponibilidad bajo solicitud."
+  },
+  {
+    "id": "cat-suturas",
+    "name": "Suturas",
+    "icon": "syringe",
+    "tagline": "Síntesis de tejidos",
+    "description": "Portaagujas y material para el cierre por planos del tejido."
+  },
+  {
+    "id": "cat-esterilizacion",
+    "name": "Esterilización",
+    "icon": "shield-check",
+    "tagline": "Asepsia y conservación",
+    "description": "Cajas, bandejas y contenedores para autoclave. Disponibilidad bajo solicitud."
+  },
+  {
+    "id": "cat-ortopedia",
+    "name": "Ortopedia",
+    "icon": "bone",
+    "tagline": "Hueso y trauma",
+    "description": "Instrumental para cirugía ósea: corte, reducción y fijación de hueso. Disponibilidad bajo solicitud."
+  },
+  {
+    "id": "cat-insumos",
+    "name": "Insumos",
+    "icon": "boxes",
+    "tagline": "Apoyo y medición",
+    "description": "Instrumental complementario y de medición para distintas especialidades."
+  }
+]

@@ -1,0 +1,200 @@
+@import 'tailwindcss';
+
+/* ============================================================
+   Quirumédica SAS — design tokens
+   Direction: clinical precision. Steel-cool surfaces, deep navy
+   ink, a single teal instrument-accent, and a caliper/tick motif
+   that runs through dividers and labels. Display face is Fraunces
+   (engraved, characterful); IBM Plex Mono carries specs & codes.
+   ============================================================ */
+@theme {
+  /* Brand palette (per planeación) */
+  --color-primary: #1e2a3a;
+  --color-primary-light: #34465c;
+  --color-primary-dark: #1e2630;
+
+  --color-brand: #6ba583;
+  --color-brand-light: #8dbfa1;
+  --color-brand-dark: #52866a;
+
+  --color-accent: #34b3ac;
+  --color-accent-light: #5ac7c1;
+  --color-accent-dark: #268c86;
+
+  --color-muted: #64748b;
+  --color-whatsapp: #25d366;
+
+  /* Cool steel surfaces — distinct from the warm-cream default */
+  --color-paper: #f4f7f8;
+  --color-surface: #ffffff;
+  --color-line: #e3e8ec;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Visible keyboard focus everywhere */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  /* Eyebrow label — mono, tracked-out, clinical */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-accent-dark);
+  }
+
+  /* The signature: a caliper rule — a baseline with measurement
+     ticks. Used as a section divider and under headings. */
+  .caliper {
+    position: relative;
+    height: 14px;
+    background-image: repeating-linear-gradient(
+      to right,
+      var(--color-line) 0,
+      var(--color-line) 1px,
+      transparent 1px,
+      transparent 12px
+    );
+    background-position: bottom;
+    background-repeat: repeat-x;
+    border-bottom: 1px solid var(--color-line);
+  }
+  .caliper::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 48px;
+    height: 14px;
+    background-image: repeating-linear-gradient(
+      to right,
+      var(--color-accent) 0,
+      var(--color-accent) 1px,
+      transparent 1px,
+      transparent 12px
+    );
+    border-bottom: 2px solid var(--color-accent);
+  }
+
+  /* Hide scrollbars on horizontal scroll strips */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ============================================================
+   Escalado global en computador — reduce el tamaño base (rem)
+   para que TODA la página se vea más compacta en pantallas
+   grandes. Tipografía, espaciados, anchos y gaps usan rem, así
+   que se escalan en proporción. En móvil/tablet no cambia nada.
+   ============================================================ */
+@media (min-width: 1024px) {
+  html {
+    font-size: 87.5%; /* 14px */
+  }
+}
+@media (min-width: 1280px) {
+  html {
+    font-size: 81.25%; /* 13px */
+  }
+}
+@media (min-width: 1536px) {
+  html {
+    font-size: 75%; /* 12px */
+  }
+}
+
+/* ============================================================
+   Barra de desplazamiento normal, SIEMPRE visible, con flechas de
+   subir / bajar en los extremos (estilo clásico de Windows).
+   (No aplica a .no-scrollbar, que oculta las barras horizontales.)
+   ============================================================ */
+html {
+  overflow-y: scroll; /* fuerza que la barra esté siempre presente */
+  scrollbar-width: auto; /* Firefox: ancho normal */
+  scrollbar-color: #8a96a3 #e3e8ec; /* thumb / track */
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+  height: 17px;
+}
+::-webkit-scrollbar-track {
+  background: #e9edf0;
+}
+::-webkit-scrollbar-thumb {
+  background: #8a96a3;
+  border: 2px solid #e9edf0;
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7884;
+}
+
+/* Flechas (botones) en los dos extremos de la barra vertical */
+::-webkit-scrollbar-button:single-button {
+  display: block;
+  height: 17px;
+  width: 17px;
+  background-color: #d7dde2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+}
+::-webkit-scrollbar-button:single-button:hover {
+  background-color: #c4ccd3;
+}
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTQgMTBsNC00IDQgNHoiIGZpbGw9IiMxZTJhM2EiLz48L3N2Zz4=');
+}
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTQgNmw0IDQgNC00eiIgZmlsbD0iIzFlMmEzYSIvPjwvc3ZnPg==');
+}
+/* Oculta los segundos botones dobles para dejar una flecha por extremo */
+::-webkit-scrollbar-button:vertical:decrement:increment,
+::-webkit-scrollbar-button:vertical:increment:decrement {
+  display: none;
+}

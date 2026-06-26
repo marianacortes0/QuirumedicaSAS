@@ -1,0 +1,26 @@
+import { Outlet, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Navbar } from './Navbar';
+import { Footer } from './Footer';
+import { WhatsAppFab } from '../common/WhatsAppFab';
+
+// Common shell: Navbar + routed page + Footer + floating WhatsApp.
+// Scrolls to top on route change.
+export function Layout() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, [pathname]);
+
+  return (
+    <div className="flex min-h-svh flex-col">
+      <Navbar />
+      <main className="flex-1">
+        <Outlet />
+      </main>
+      <Footer />
+      <WhatsAppFab />
+    </div>
+  );
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "anti-slop": {
+      "source": "rand/cc-polymath",
+      "sourceType": "github",
+      "skillPath": "skills/anti-slop/SKILL.md",
+      "computedHash": "76efa981799d4d9454aef081ae02fd21cc38f56450d0d8bd33c5f50221f53543"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "93f53fd1c0352d3d7ec17b8f73d7351bf76f4821e55d123c9d2abc2c53ba48e4"
+    },
+    "responsive-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/ui-design/skills/responsive-design/SKILL.md",
+      "computedHash": "155eff4b1bc8d867ae6bea9900c485ab1081de0b4873c1900adb66bf62466aed"
+    },
+    "writing-anti-ai": {
+      "source": "galaxy-dawn/claude-scholar",
+      "sourceType": "github",
+      "skillPath": "skills/writing-anti-ai/SKILL.md",
+      "computedHash": "072c93e12c75428bcc18f7c35d563d51ffaadcdc2d2147baf0e8a2a2f2e96f8b"
+    }
+  }
+}
