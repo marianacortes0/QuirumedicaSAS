@@ -4,7 +4,7 @@ import { Reveal } from '../../components/common/Reveal';
 const MISION_VISION = [
   {
     title: 'Misión',
-    body: 'Quirumédica SAS tiene como propósito satisfacer de manera oportuna y eficaz las necesidades actuales y futuras de sus clientes institucionales y distribuidores del sector salud, mediante la provisión de dispositivos, insumos e instrumentos médico-quirúrgicos que cumplen con altos estándares de calidad en sus procesos de fabricación, comercialización y distribución.',
+    body: 'Quirumédica tiene como propósito satisfacer de manera oportuna y eficaz las necesidades actuales y futuras de sus clientes institucionales y distribuidores del sector salud, mediante la provisión de dispositivos, insumos e instrumentos médico-quirúrgicos que cumplen con altos estándares de calidad en sus procesos de fabricación, comercialización y distribución.',
   },
   {
     title: 'Visión',
@@ -22,7 +22,7 @@ export function AboutPage() {
             <SectionHeading
               eyebrow="Nosotros"
               title="Nuestro compromiso"
-              intro="En Quirumédica SAS contamos con un equipo humano altamente comprometido con el cumplimiento integral de nuestros objetivos, orientado a ofrecer soluciones confiables, eficientes y de alta calidad para el sector salud."
+              intro="En Quirumédica contamos con un equipo humano altamente comprometido con el cumplimiento integral de nuestros objetivos, orientado a ofrecer soluciones confiables, eficientes y de alta calidad para el sector salud."
             />
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">
               Trabajamos para aportar al desarrollo seguro de los procedimientos
