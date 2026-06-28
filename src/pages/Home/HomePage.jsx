@@ -25,8 +25,8 @@ export function HomePage() {
             {/* Texto del inicio — breve */}
             <div>
               <h1 className="anim-fade-up mt-5 max-w-xl font-display text-4xl leading-[1.05] font-semibold tracking-tight text-primary sm:text-5xl lg:text-6xl">
-                Manejamos todo tipo de instrumental quirúrgico
-                <span className="text-accent"> con cotización directa </span>
+                Manejamos todo tipo de 
+                <span className="text-accent"> instrumental quirúrgico </span>
               </h1>
               <div className="caliper anim-fade-up mt-6 w-44" style={{ animationDelay: '0.1s' }} />
               <p
