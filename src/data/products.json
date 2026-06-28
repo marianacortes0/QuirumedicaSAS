@@ -48,8 +48,7 @@
     "name": "Pinza Adson con garra",
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-adson-con-garra.webp",
-    "medidas": "12 cm",
-    "descripcion": "Se manejan en todas las medidas",
+    "medidas": "12.5 cm - 15 cm",
     "featured": true
   },
   {
@@ -57,8 +56,7 @@
     "name": "Pinza Adson sin garra",
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-adson-sin-garra.jpg",
-    "medidas": "12 cm",
-    "descripcion": "Se manejan en todas las medidas",
+    "medidas": "12.5 cm -- 15 cm",
     "featured": false
   },
   {
@@ -67,7 +65,6 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-kelly-curva.jpg",
     "medidas": "14 cm",
-    "descripcion": "Se manejan en todas las medidas",
     "featured": true
   },
   {
@@ -75,8 +72,7 @@
     "name": "Pinza Kelly recta",
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-kelly-recta.webp",
-    "medidas": "20 cm",
-    "descripcion": "Se manejan en todas las medidas",
+    "medidas": "14 cm",
     "featured": false
   },
   {
@@ -93,8 +89,7 @@
     "name": "Pinza biopsia Schubert",
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-biopsia-schubert.jpg",
-    "medidas": "21.5 cm",
-    "descripcion": "Se manejan en todas las medidas",
+    "medidas": "25 cm",
     "featured": false
   },
   {
@@ -147,8 +142,7 @@
     "name": "Pinza Kerrison de corte óseo",
     "categoryId": "cat-ortopedia",
     "image": "/images/products/pinza-kerrison.jpg",
-    "medidas": "15 cm",
-    "descripcion": "Se manejan en todas las medidas",
+    "medidas": "180 cm",
     "featured": false
   },
   {
@@ -156,8 +150,7 @@
     "name": "Histerómetro Sims maleable",
     "categoryId": "cat-insumos",
     "image": "/images/products/histerometro-sims.jpg",
-    "medidas": "32 cm",
-    "descripcion": "Se manejan en todas las medidas",
+    "medidas": "34 cm",
     "featured": false
   },
   {
@@ -200,8 +193,7 @@
     "name": "Cincel para hueso 6MM",
     "categoryId": "cat-ortopedia",
     "image": "/images/products/cincel_hueso.webp",
-    "medidas": "13,5 cm",
-    "descripcion": "Se manejan en todas las medidas",
+    "medidas": "16 cm",
     "featured": false
   },
   {

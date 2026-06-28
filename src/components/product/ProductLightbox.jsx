@@ -79,28 +79,15 @@ export function ProductLightbox({ product, onClose }) {
           )}
         </figure>
 
-        <div className="flex flex-col p-6 sm:p-7">
-          <span className="font-mono text-[0.625rem] tracking-widest text-accent-dark uppercase">
-            {product.medidas}
-          </span>
-          <h2 className="mt-2 font-display text-2xl leading-snug font-semibold text-primary">
-            {product.name}
-          </h2>
-
-          {product.descripcion && (
-            <p className="mt-4 rounded-r-lg border-l-2 border-accent bg-accent/[0.07] py-2.5 pr-4 pl-4 text-sm leading-relaxed font-medium text-accent-dark">
-              {product.descripcion}
-            </p>
-          )}
-
+        <div className="flex flex-col justify-center p-6 sm:p-7">
           <a
             href={quoteUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-auto inline-flex items-center justify-center gap-2 rounded-xl bg-accent px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-accent-dark"
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-accent px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-accent-dark"
           >
             <MessageCircle className="size-4" aria-hidden="true" />
-            Consultar este instrumento
+            Cotizar
           </a>
         </div>
 
