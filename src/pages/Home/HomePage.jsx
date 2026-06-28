@@ -97,7 +97,7 @@ export function HomePage() {
           ) : error ? (
             <ErrorMessage />
           ) : (
-            <ProductCarousel products={all} />
+            <ProductCarousel products={all.slice(0, 10)} />
           )}
         </div>
         <div className="mt-10">
