@@ -29,7 +29,7 @@ export function CategoryCard({ category, count }) {
   return (
     <Link
       to={`/tienda?categoria=${category.id}`}
-      className="group relative flex flex-col gap-4 overflow-hidden rounded-2xl border border-line bg-surface p-6 pl-7 transition-colors duration-300 hover:border-accent/40"
+      className="group relative flex h-full flex-col gap-4 overflow-hidden rounded-2xl border border-line bg-surface p-6 pl-7 transition-[transform,box-shadow,border-color] duration-300 ease-out hover:-translate-y-1.5 hover:border-accent/40 hover:shadow-xl hover:shadow-primary/5 motion-reduce:hover:translate-y-0"
     >
       {/* Distinct from product cards: a measuring stop grows down the
           inline edge instead of the card lifting. */}

@@ -45,11 +45,11 @@ export function ProductLightbox({ product, onClose }) {
       onClick={onClose}
       className="fixed inset-0 z-[60] flex items-center justify-center p-4"
     >
-      <div className="absolute inset-0 bg-primary-dark/80 backdrop-blur-sm" />
+      <div className="anim-fade-in absolute inset-0 bg-primary-dark/80 backdrop-blur-sm" />
 
       <div
         onClick={(e) => e.stopPropagation()}
-        className="relative z-10 grid max-h-[90svh] w-full max-w-4xl overflow-hidden rounded-2xl border border-line bg-surface shadow-2xl md:grid-cols-[1.4fr_1fr]"
+        className="anim-scale-in relative z-10 grid max-h-[90svh] w-full max-w-4xl overflow-hidden rounded-2xl border border-line bg-surface shadow-2xl md:grid-cols-[1.4fr_1fr]"
       >
         <figure className="relative aspect-square overflow-hidden bg-gradient-to-br from-[#eef2f4] to-[#dde5e8]">
           {imgOk ? (
@@ -86,6 +86,12 @@ export function ProductLightbox({ product, onClose }) {
           <h2 className="mt-2 font-display text-2xl leading-snug font-semibold text-primary">
             {product.name}
           </h2>
+
+          {product.descripcion && (
+            <p className="mt-4 rounded-r-lg border-l-2 border-accent bg-accent/[0.07] py-2.5 pr-4 pl-4 text-sm leading-relaxed font-medium text-accent-dark">
+              {product.descripcion}
+            </p>
+          )}
 
           <a
             href={quoteUrl}

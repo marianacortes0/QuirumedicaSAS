@@ -14,7 +14,7 @@ export function ProductCard({ product }) {
   );
 
   return (
-    <article className="group relative flex flex-col overflow-hidden rounded-2xl border border-line bg-surface transition-colors duration-300 hover:border-accent/40">
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-surface transition-[transform,box-shadow,border-color] duration-300 ease-out hover:-translate-y-1.5 hover:border-accent/40 hover:shadow-xl hover:shadow-primary/5 motion-reduce:hover:translate-y-0">
       {/* Hover signature: an accent caliper rule draws across the top —
           reads as a measurement tick, not the generic card-lift. */}
       <span
@@ -54,6 +54,12 @@ export function ProductCard({ product }) {
         <h3 className="font-display text-lg leading-snug font-semibold text-primary">
           {product.name}
         </h3>
+
+        {product.descripcion && (
+          <p className="mt-3 rounded-r-md border-l-2 border-accent bg-accent/[0.07] py-2 pr-3 pl-3 text-[0.8125rem] leading-relaxed font-medium text-accent-dark">
+            {product.descripcion}
+          </p>
+        )}
 
         <div className="mt-5 flex items-center justify-between gap-3 border-t border-line pt-4">
           <span className="font-mono text-sm font-medium tracking-widest text-muted uppercase">

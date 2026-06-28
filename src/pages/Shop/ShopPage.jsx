@@ -1,9 +1,11 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useProducts } from '../../hooks/useProducts';
 import { useCategories } from '../../hooks/useCategories';
 import { useProductFilter } from '../../hooks/useProductFilter';
+import { usePagination } from '../../hooks/usePagination';
 import { ProductGrid } from '../../components/product/ProductGrid';
+import { Pagination } from '../../components/common/Pagination';
 import { SearchBar } from '../../components/common/SearchBar';
 import { SectionHeading } from '../../components/common/SectionHeading';
 import { Loader } from '../../components/common/Loader';
@@ -17,11 +19,21 @@ export function ShopPage() {
   const { categories } = useCategories();
   const { filtered, category, setCategory, query, setQuery, resultCount } =
     useProductFilter(products, { initialCategory: paramCategory });
+  const { pageItems, page, setPage, totalPages, rangeStart, rangeEnd } =
+    usePagination(filtered, { pageSize: 10 });
+
+  const resultsRef = useRef(null);
 
   // Keep filter in sync when the category arrives via URL (e.g. from a card).
   useEffect(() => {
     setCategory(paramCategory);
   }, [paramCategory, setCategory]);
+
+  // Change page and bring the top of the results into view.
+  const goToPage = (p) => {
+    setPage(p);
+    resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
 
   const selectCategory = (id) => {
     setCategory(id);
@@ -53,7 +65,7 @@ export function ShopPage() {
                 type="button"
                 onClick={() => selectCategory(c.id)}
                 aria-pressed={isActive}
-                className={`shrink-0 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
+                className={`shrink-0 rounded-full border px-4 py-2 text-sm font-medium transition-all duration-200 hover:scale-105 active:scale-95 ${
                   isActive
                     ? 'border-primary bg-primary text-white'
                     : 'border-line bg-surface text-muted hover:border-accent hover:text-primary'
@@ -66,19 +78,32 @@ export function ShopPage() {
         </div>
 
         <p className="font-mono text-xs tracking-widest text-muted uppercase">
-          {resultCount.toString().padStart(2, '0')} resultado
-          {resultCount === 1 ? '' : 's'}
+          {resultCount === 0
+            ? '00 resultados'
+            : `${rangeStart.toString().padStart(2, '0')}–${rangeEnd
+                .toString()
+                .padStart(2, '0')} de ${resultCount
+                .toString()
+                .padStart(2, '0')} resultados`}
         </p>
       </div>
 
       {/* Results */}
-      <div className="mt-8">
+      <div ref={resultsRef} className="mt-8 scroll-mt-28 lg:scroll-mt-36">
         {loading ? (
           <Loader />
         ) : error ? (
           <ErrorMessage />
         ) : (
-          <ProductGrid products={filtered} />
+          <>
+            <ProductGrid products={pageItems} />
+            <Pagination
+              page={page}
+              totalPages={totalPages}
+              onChange={goToPage}
+              className="mt-12"
+            />
+          </>
         )}
       </div>
     </section>

@@ -1,5 +1,6 @@
 import { PackageOpen } from 'lucide-react';
 import { ProductCard } from './ProductCard';
+import { Reveal } from '../common/Reveal';
 
 // Responsive grid: 1 → 2 → 3 → 4 columns. Handles its own empty state.
 export function ProductGrid({ products }) {
@@ -18,8 +19,10 @@ export function ProductGrid({ products }) {
 
   return (
     <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-      {products.map((p) => (
-        <ProductCard key={p.id} product={p} />
+      {products.map((p, i) => (
+        <Reveal key={p.id} delay={Math.min(i, 7) * 70} className="h-full">
+          <ProductCard product={p} />
+        </Reveal>
       ))}
     </div>
   );

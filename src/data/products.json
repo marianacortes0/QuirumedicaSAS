@@ -5,6 +5,7 @@
     "categoryId": "cat-tijeras",
     "image": "/images/products/tijera-mayo-curva.png",
     "medidas": "14.5 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": true
   },
   {
@@ -13,6 +14,7 @@
     "categoryId": "cat-tijeras",
     "image": "/images/products/tijera-mayo-recta.jpg",
     "medidas": "14 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -21,6 +23,7 @@
     "categoryId": "cat-tijeras",
     "image": "/images/products/tijera-metzenbaum-recta.jpg",
     "medidas": "14 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -29,6 +32,7 @@
     "categoryId": "cat-tijeras",
     "image": "/images/products/tijera-metzenbaum-curva.jpeg",
     "medidas": "14.5 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": true
   },
   {
@@ -45,6 +49,7 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-adson-con-garra.webp",
     "medidas": "12 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": true
   },
   {
@@ -53,6 +58,7 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-adson-sin-garra.jpg",
     "medidas": "12 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -61,6 +67,7 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-kelly-curva.jpg",
     "medidas": "14 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": true
   },
   {
@@ -69,6 +76,7 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-kelly-recta.webp",
     "medidas": "20 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -77,6 +85,7 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-backhaus.jpg",
     "medidas": "11 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -85,6 +94,7 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-biopsia-schubert.jpg",
     "medidas": "21.5 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -93,6 +103,7 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-biopsia-schubert-curva.jpg",
     "medidas": "26 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -101,6 +112,7 @@
     "categoryId": "cat-ortopedia",
     "image": "/images/products/pinza-lewin.jpg",
     "medidas": "18 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -109,6 +121,7 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-mosquito-curva.webp",
     "medidas": "12.5 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -117,6 +130,7 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-mosquito-recta.jpg",
     "medidas": "14 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -125,6 +139,7 @@
     "categoryId": "cat-ortopedia",
     "image": "/images/products/pinza-reduccion-mandibulas.jpg",
     "medidas": "14 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -133,6 +148,7 @@
     "categoryId": "cat-ortopedia",
     "image": "/images/products/pinza-kerrison.jpg",
     "medidas": "15 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -141,6 +157,7 @@
     "categoryId": "cat-insumos",
     "image": "/images/products/histerometro-sims.jpg",
     "medidas": "32 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -148,7 +165,6 @@
     "name": "Coca de acero 100ml para aceros quirúrgicos",
     "categoryId": "cat-esterilizacion",
     "image": "/images/products/coca-acero-inoxidable-100ml-uso-medico.webp",
-    "medidas": "",
     "featured": false
   },
   {
@@ -156,7 +172,6 @@
     "name": "Cubeta con tapa,bandeja de acero inoxidable para Instrumental",
     "categoryId": "cat-esterilizacion",
     "image": "/images/products/Cubeta-con-tapa-y-agarradera-23x11x3-pix-a-600x486_512x415.webp",
-    "medidas": "",
     "featured": false
   },
   {
@@ -164,7 +179,6 @@
     "name": "Contenedores de Esterilización de Instrumental",
     "categoryId": "cat-esterilizacion",
     "image": "/images/products/contenedores_Esterilizacion.jpg",
-    "medidas": "",
     "featured": false
   },
   {
@@ -172,7 +186,6 @@
     "name": "Guantes de latex en talco Caja x100",
     "categoryId": "cat-insumos",
     "image": "/images/products/guantes_latex.webp",
-    "medidas": "",
     "featured": false
   },
   {
@@ -180,7 +193,6 @@
     "name": "Bata desechable",
     "categoryId": "cat-insumos",
     "image": "/images/products/bata_desechable.jpg",
-    "medidas": "",
     "featured": false
   },
   {
@@ -189,6 +201,7 @@
     "categoryId": "cat-ortopedia",
     "image": "/images/products/cincel_hueso.webp",
     "medidas": "13,5 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -197,6 +210,7 @@
     "categoryId": "cat-ortopedia",
     "image": "/images/products/martillo.jpg",
     "medidas": "26,5 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -205,6 +219,7 @@
     "categoryId": "cat-separadores",
     "image": "/images/products/especulo_nasal.jpg",
     "medidas": "26,5 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -213,6 +228,7 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/alicate-hombresolo-para-extraer-alambre-long-18-cm-7.jpg",
     "medidas": "18 cm",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -220,7 +236,7 @@
     "name": "Especulo vaginal grave pequeño",
     "categoryId": "cat-separadores",
     "image": "/images/products/especulo-vaginal-grave-pequeno-hospital-esterilizable-con-sistema-eo-oxido-de-ethileno.jpg",
-    "medidas": "",
+    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -229,6 +245,16 @@
     "categoryId": "cat-ortopedia",
     "image": "/images/products/cizalla_liston.jpg",
     "medidas": "22cm",
+    "descripcion": "Se manejan en todas las medidas",
+    "featured": false
+  },
+  {
+    "id": "prod-030",
+    "name": "Pinza de diseccion estandar de 14,5 cm",
+    "categoryId": "cat-pinzas",
+    "image": "/images/products/pinzas-de-diseccion-sin-garra-14-cms.webp",
+    "medidas": "14,5 cm",
+    "descripcion": "Se manejan en todas las medidas -- Disponible con garra y sin garra",
     "featured": false
   }
 ]

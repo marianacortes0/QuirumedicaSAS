@@ -23,7 +23,8 @@ export function ProductGallery({ products }) {
               onMouseEnter={() => setActive(i)}
               onFocus={() => setActive(i)}
               aria-label={`Ampliar ${p.name}`}
-              className={`group relative overflow-hidden rounded-2xl border border-line bg-gradient-to-br from-[#eef2f4] to-[#dde5e8] text-left transition-all duration-500 ease-out focus-visible:outline-2 focus-visible:outline-accent ${
+              style={{ animationDelay: `${i * 90}ms` }}
+              className={`anim-fade-up group relative overflow-hidden rounded-2xl border border-line bg-gradient-to-br from-[#eef2f4] to-[#dde5e8] text-left transition-all duration-500 ease-out focus-visible:outline-2 focus-visible:outline-accent ${
                 isActive
                   ? 'min-h-72 md:min-h-0 md:flex-[5]'
                   : 'min-h-28 md:min-h-0 md:flex-[1.4]'

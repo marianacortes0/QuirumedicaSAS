@@ -1,6 +1,7 @@
 import { useCategories } from '../../hooks/useCategories';
 import { useProducts } from '../../hooks/useProducts';
 import { CategoryCard } from '../../components/category/CategoryCard';
+import { Reveal } from '../../components/common/Reveal';
 import { SectionHeading } from '../../components/common/SectionHeading';
 import { Loader } from '../../components/common/Loader';
 import { ErrorMessage } from '../../components/common/ErrorMessage';
@@ -27,8 +28,10 @@ export function CategoriesPage() {
           <ErrorMessage />
         ) : (
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {categories.map((c) => (
-              <CategoryCard key={c.id} category={c} count={countFor(c.id)} />
+            {categories.map((c, i) => (
+              <Reveal key={c.id} delay={Math.min(i, 8) * 70} className="h-full">
+                <CategoryCard category={c} count={countFor(c.id)} />
+              </Reveal>
             ))}
           </div>
         )}
