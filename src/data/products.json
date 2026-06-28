@@ -207,11 +207,10 @@
   },
   {
     "id": "prod-026",
-    "name": "Especulo nasal viena modificado",
+    "name": "Especulo nasal viena n1-n2-n3",
     "categoryId": "cat-separadores",
     "image": "/images/products/especulo_nasal.jpg",
-    "medidas": "26,5 cm",
-    "descripcion": "Se manejan en todas las medidas",
+    "medidas": "14 cm",
     "featured": false
   },
   {

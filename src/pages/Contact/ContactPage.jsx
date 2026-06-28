@@ -70,7 +70,7 @@ export function ContactPage() {
                 <dt className="font-mono text-[0.625rem] tracking-widest text-muted uppercase">
                   {label}
                 </dt>
-                <dd className="truncate text-sm font-medium text-primary">{value}</dd>
+                <dd className="text-sm font-medium break-words text-primary">{value}</dd>
               </span>
             </>
           );

@@ -6,7 +6,7 @@ const WHATSAPP_PHONE = '573213350417';
 
 const PHONE_DISPLAY = '+57 321 3350417';
 const PHONE_TEL = '+573213350417';
-const EMAIL = 'ventas@quirumedica.com';
+const EMAIL = 'quirumedica2026@gmail.com';
 
 export const CONTACT = {
   companyName: 'Quirumédica',
