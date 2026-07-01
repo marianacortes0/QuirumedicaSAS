@@ -106,7 +106,7 @@
     "name": "Pinza Lewin para reducción ósea",
     "categoryId": "cat-ortopedia",
     "image": "/images/products/pinza-lewin.jpg",
-    "medidas": "18 cm",
+    "medidas": "17.5 cm",
     "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
@@ -115,7 +115,7 @@
     "name": "Pinza Mosquito curva",
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-mosquito-curva.webp",
-    "medidas": "12.5 cm",
+    "medidas": "12.5 cm - 14 cm",
     "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
@@ -124,7 +124,7 @@
     "name": "Pinza Mosquito recta",
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-mosquito-recta.jpg",
-    "medidas": "14 cm",
+    "medidas": "12.5 cm - 14 cm",
     "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
@@ -198,10 +198,10 @@
   },
   {
     "id": "prod-025",
-    "name": "Martillo 450Gr Cat:32.690.45",
+    "name": "Martillo 300Gr 26mm ",
     "categoryId": "cat-ortopedia",
     "image": "/images/products/martillo.jpg",
-    "medidas": "26,5 cm",
+    "medidas": "Long 24 cm",
     "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
