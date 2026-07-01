@@ -107,7 +107,6 @@
     "categoryId": "cat-ortopedia",
     "image": "/images/products/pinza-lewin.jpg",
     "medidas": "17.5 cm",
-    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -116,7 +115,6 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-mosquito-curva.webp",
     "medidas": "12.5 cm - 14 cm",
-    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
@@ -125,7 +123,6 @@
     "categoryId": "cat-pinzas",
     "image": "/images/products/pinza-mosquito-recta.jpg",
     "medidas": "12.5 cm - 14 cm",
-    "descripcion": "Se manejan en todas las medidas",
     "featured": false
   },
   {
